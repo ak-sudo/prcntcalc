@@ -19,3 +19,8 @@ function calc(){
     write = document.getElementById("msg");
     write.innerText = "You scored "+ result+ "%";
 }
+
+function rel(){
+    // console.log("Hi");
+    window.location.reload(true);
+}
