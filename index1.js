@@ -2,13 +2,11 @@ function redirector(){
     yourClass = Number(document.getElementById("class").value);
     if (yourClass == 0){
         alert("Invalid class. Please Try Again!");
-        return false;
     }
     if (yourClass =< 5){
         window.location.href = "/prcntcalc/c1to5.html"
-        return false;
     }
-    if (yourClass => 6){
+    if (yourClass >= 6){
         window.location.href = "/prcntcalc/calc.html";
     }
     if (yourClass >= 13){
