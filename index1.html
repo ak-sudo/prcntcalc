@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning JavaScript</title>
+    <style>
+        
+        .background{
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body background="" style="background-repeat: no-repeat; background-size: cover;">
+
+    <!-- In html class can be SAME for many elements but id of every element is UNIQUE. -->
+    <!-- ID is especially used to identify a particular item so it is not a good practice to use two items of the same IDs -->
+
+    <b id="bold">
+        <h1 style="text-align: center; color: lightseagreen;">Percentage Calculator For Unit Tests!</h1>
+    </b>
+
+    <section class="eachMrks"></section>
+    <div class="eachMrks">
+        <h3 style="text-align: center; color: blue;">Which class mark do you want to calculate?</h3>
+        <input id="class" style="color: blue; margin: auto; display: block; box-sizing: border-box; border-color: black;"
+            type="number" inputmode="numeric" max="12" min="1" placeholder="Class"></input>
+    </div>
+
+
+    <div class="btn"
+        style="box-sizing: border-box; padding-top: 15px; display: flex; justify-content: center; align-items: center;">
+        <input id="btn" type="button" style="border-color: slateblue; color: red; font-weight: bold;" value='Continue' onclick="redirector()"></input>
+    </div>
+
+    </section> 
+
+    <script src="index1.js"></script>
+</body>
+
+</html>
