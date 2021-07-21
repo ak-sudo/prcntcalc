@@ -4,7 +4,11 @@ function redirector(){
         alert("Invalid class. Please Try Again!");
         return false;
     }
-    if (yourClass < 13){
+    if (yourClass =< 5){
+        window.location.href = "/prcntcalc/c1to5.html"
+        return false;
+    }
+    if (yourClass => 6){
         window.location.href = "/prcntcalc/calc.html";
     }
     if (yourClass >= 13){
