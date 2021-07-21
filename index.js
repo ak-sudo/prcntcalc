@@ -6,7 +6,9 @@ function calc(){
     fourth = Number(document.getElementById("fourth").value);
     fifth = Number(document.getElementById("fifth").value);
     sixth = Number(document.getElementById("sixth").value);
-    result = (first+second+third+fourth+fifth+sixth)*100/120;
+    n = Number(document.getElementById("overAll").value);
+    over = n;
+    result = (first+second+third+fourth+fifth+sixth)*100/over;
     if(result >= 80){
         document.getElementById("msg").style.color="green";
     }
@@ -19,7 +21,6 @@ function calc(){
     write = document.getElementById("msg");
     write.innerText = "You scored "+ result+ "%";
 }
-
 function rel(){
     // console.log("Hi");
     window.location.reload(true);
