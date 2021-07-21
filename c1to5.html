@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning JavaScript</title>
+    <style>
+        
+        .background{
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body background="Cwgf.gif" style="background-repeat: no-repeat; background-size: cover;">
+
+    <!-- In html class can be SAME for many elements but id of every element is UNIQUE. -->
+    <!-- ID is especially used to identify a particular item so it is not a good practice to use two items of the same IDs -->
+
+    <b id="bold">
+        <h1 style="text-align: center; color: lightseagreen;">Percentage Calculator For Unit Tests!</h1>
+    </b>
+
+    <section class="eachMrks"></section>
+    <div class="eachMrks">
+        <h3 style="text-align: center; color: blue;">Maths Marks</h3>
+        <input id="first" style="color: black; margin: auto; display: block; box-sizing: border-box; border-color: blue;"
+            type="number" inputmode="numeric" max="20" min="0" placeholder="Marks"></input>
+    </div>
+
+    <div class="eachMrks">
+        <h3 style="text-align: center; color: purple;">Science Marks</h3>
+        <input id="second" style="color: black; margin: auto; display: block; box-sizing: border-box; border-color: purple;" type="number"
+            inputmode="numeric" max="20" min="0" placeholder="Marks"></input>
+    </div>
+
+    <div>
+        <h3 style="text-align: center; color: powderblue;">English Marks</h3>
+        <input id="third" style="color: black; margin: auto; display: block; box-sizing: border-box; border-color: powderblue;" type="number"
+            inputmode="numeric" max="20" min="0" placeholder="Marks"></input>
+    </div>
+
+    <div>
+        <h3 style="text-align: center; color: orangered;">Hindi Marks</h3>
+        <input id="fourth" style="color: black; margin: auto; display: block; box-sizing: border-box; border-color: orangered;" type="number"
+            inputmode="numeric" max="20" min="0" placeholder="Marks"></input>
+    </div>
+
+    <div>
+        <h3 style="text-align: center; color: magenta;">Social Science Marks</h3>
+        <input id="fifth" style="color: black; margin: auto; display: block; box-sizing: border-box; border-color: magenta;" type="number"
+            inputmode="numeric" max="20" min="0" placeholder="Marks"></input>
+    </div>
+
+    <div>
+        <h3 style="text-align: center; color: rosybrown;">Computer Marks</h3>
+        <input id="sixth" style="color: black; margin: auto; display: block; box-sizing: border-box; border-color: rosybrown;" type="number"
+            inputmode="numeric" max="20" min="0" placeholder="Marks"></input>
+    </div>
+
+    <div>
+        <h3 style="text-align: center; color: rgb(119, 220, 245);" id="seven">Sanskrit Marks </h3>
+        <input id="seventh" style="color: black; margin: auto; display: block; box-sizing: border-box; border-color: rosybrown;" type="number"
+            inputmode="numeric" max="20" min="0" placeholder="Marks"></input>
+    </div>
+
+    <div>
+        <h3 style="text-align: center; color: rgb(207, 13, 23);">G.K. Marks</h3>
+        <input id="eight" style="color: black; margin: auto; display: block; box-sizing: border-box; border-color: rosybrown;" type="number"
+            inputmode="numeric" max="20" min="0" placeholder="Marks"></input>
+    </div>
+
+    <div>
+        <h3 style="text-align: center; color: rgb(68, 107, 5);">M.Sc. Marks</h3>
+        <input id="ninth" style="color: black; margin: auto; display: block; box-sizing: border-box; border-color: rosybrown;" type="number"
+            inputmode="numeric" max="20" min="0" placeholder="Marks"></input>
+    </div>
+
+    <div>
+        <u><b><h1 style="text-align: center; color: red;">Out Of</h1></u></div></b>
+        <input id="overAll" style="text-align: center; color: black; margin: auto; display: block; box-sizing: border-box; border-color: rosybrown;" type="number"
+            inputmode="numeric" min="0" placeholder="Out of In Each Sub."></input>
+    </div>
+
+    <div>
+        <h3 id="msg" style="background-color: white; text-align: center; color: black;"><b style="text-align: center;"></b></h3>
+    </div>
+
+    <div class="btn"
+    style="box-sizing: border-box; padding-top: 15px; display: flex; justify-content: center; align-items: center;">
+    <input id="btn" type="button" style="border-color: slateblue; color: red; font-weight: bold;" value='Reset' onclick="rel()"></input>
+     </div>
+
+    <div class="btn"
+        style="box-sizing: border-box; padding-top: 15px; display: flex; justify-content: center; align-items: center;">
+        <input id="btn" type="button" style="border-color: slateblue; color: red; font-weight: bold;" value='Calculate Percentage' onclick="calc()"></input>
+    </div>
+
+
+ 
+    
+
+    </section> 
+
+    <script src="index.js"></script>
+</body>
+
+</html>
+
+<!-- display ko block m bdlna h  -->
