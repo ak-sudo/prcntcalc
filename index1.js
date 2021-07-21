@@ -3,7 +3,7 @@ function redirector(){
     
     if (yourClass >= 13){
         alert("You have entered an invalid class. Please Try Again!");
-        window.location.reload(true);
+        return false;
     }
     if (yourClass >= 1){
         window.location.href = "/prcntcalc/calc.html";
